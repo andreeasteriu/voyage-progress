@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#313131"
+    }
+  ],
+  "editor.tabSize": 2,
+  "workbench.editor.closeEmptyGroups": false,
+  "files.exclude": {
+    ".eslintrc.js": false,
+    ".gitignore": false,
+    ".npmrc": false,
+    ".prettierrc.js": false,
+    ".next": false,
+    ".eslintcache": false,
+    "tsconfig.json": false,
+    "next-env.d.ts": false,
+    "next.config.js": false,
+    "node_modules": false,
+    "package-lock.json": false,
+    "README.md": false
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
