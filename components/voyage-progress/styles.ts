@@ -47,6 +47,7 @@ export const Bar = styled.div`
 type Props = {
   progress: number;
 };
+
 const dynamicStyle = ({ progress }: Props) => css`
   width: ${progress || 0}%;
   transition: width 2s;

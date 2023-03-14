@@ -46,7 +46,7 @@ export const ProgressBar = ({ progress }: Props) => {
       return 12.5;
     } else if (progress > 80 && progress < 98) {
       return progress + 2;
-    } else if (progress > 99) {
+    } else if (progress >= 99) {
       return progress;
     }
     return progress + 4;

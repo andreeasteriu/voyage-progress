@@ -1,15 +1,8 @@
 import React from "react";
 
-type Props = {};
-
-export const PinSVG = (props: Props) => {
+export const PinSVG = () => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={92.887}
-      height={101.021}
-      {...props}
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" width={92.887} height={101.021}>
       <g data-name="Group 240">
         <g data-name="Group 239">
           <path

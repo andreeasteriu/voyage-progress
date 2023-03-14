@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import { ProgressBar } from "./progress-bar";
 import { Container, Ports, ProgressMessage, Text } from "./styles";
 
@@ -33,13 +33,6 @@ const VoyageProgress = ({
       clearInterval(timer);
     };
   }, [departureTime, arrivalTime]);
-
-  const getPercentage = () => {
-    const departure = new Date(departureTime).getTime();
-    const arrival = new Date(arrivalTime).getTime();
-    const now = Date.now();
-    return Math.min(100, ((now - departure) / (arrival - departure)) * 100);
-  };
 
   const countingTime = ((elapsedTime / totalTime) * 100).toFixed(2);
 
